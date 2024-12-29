@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'SatyrSP';
+    src: url('/home/elena/WebstormProjects/untitled/макет ск/SatyrSP.otf');
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"] {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.header__container {
+    display: flex;
+    min-height: 10px;
+    align-items: center;
+}
+
+.header__button {
+    flex: 1 1 auto;
+    position: absolute;
+    left: 50%;
+    font-family: 'SatyrSP', sans-serif;
+    font-size: 3.3vw;
+    color: white;
+}
+.afina {
+    all: unset;
+    color: black;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__logo {
+    flex: 1 1 auto;
+    width: 4%;
+    position: absolute;
+    left: 43%;
+    top: 1.2%;
+}
+
+.header__img {
+    flex: 1 1 auto;
+    height: 4vw;
+    width: 100%;
+}
+
+
+.vacantion {
+    white-space: nowrap;
+}
+.h1 {
+    white-space: normal;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-left: 25.5%;
+    margin-top: 6%;
+    font-size: 2.5vw;
+    color: black;
+    text-align: center;
+    background-color: #ffbf49;
+}
+
+
+.text {
+    white-space: nowrap;
+}
+.text2 {
+    white-space: nowrap;
+}
+.text3 {
+    white-space: nowrap;
+}
+.text4 {
+    white-space: nowrap;
+}
+.text5 {
+    white-space: nowrap;
+}
+.text6 {
+    white-space: nowrap;
+}
+.text7 {
+    white-space: nowrap;
+}
+.text8 {
+    white-space: nowrap;
+}
+
+
+.section {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.section2 {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.section3 {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.section4 {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.section5 {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.section6 {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.section7 {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.section8 {
+    white-space: normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+a {
+all: unset;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
