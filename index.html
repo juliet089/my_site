@@ -1,0 +1,144 @@
+<!doctype html>
+<meta charset=UTF-8>
+<html lang="ru" class="html">
+<head>
+  <title> СК "Афина" </title>
+  <link rel="icon" href='/home/elena/WebstormProjects/untitled/макет ск/лого-вектор.svg'>
+  <link rel="stylesheet" href='/home/elena/WebstormProjects/untitled/style.css'>
+  <link rel="stylesheet" href='/home/elena/WebstormProjects/untitled/animation.css'>
+</head>
+<body class="body">
+<header class="header">
+  <img class = "img" src = '/home/elena/WebstormProjects/untitled/макет ск/шапка.png'>
+  <img class = "logo" src='/home/elena/WebstormProjects/untitled/макет ск/ск лого.png' alt = "Логотип">
+  <ul class = "header_list">
+    <li class="li1">Афина</li>
+    <li class="li" id="info">О нас</li>
+    <li class="li" id="services">Услуги</li>
+    <li class="li" id="vacantion">Вакансии</li>
+    <li class="li" id="contacts">Контакты</li>
+  </ul>
+</header>
+
+<img class="img2" src='/home/elena/WebstormProjects/untitled/макет ск/1.jpg'>
+<h1 class="h1">Строительство <br> домов под ключ</h1>
+  <h2 class="h2">по индивидуальному<br>или готовому<br>проекту</h2>
+
+<h3 class="h3" id="info_main">О компании</h3>
+  <p class="p">С 2014 года создаём комфорт и уют для жителей Тюмени</p>
+  <p class="p1">СК «Афина» - это современное, динамично развивающееся предприятие в сфере
+
+    строительства. Мы гарантируем качественное выполнение работы в срок.
+
+    Полный перечень работ включает в себя подготовительные и отделочные
+
+    работы, дизайнерский ремонт, ремонт внутренних инженерных систем и
+    коммуникаций. <br>
+    <br>
+
+    За 10 лет работы мы сформировали команду профессионалов, в которой каждый
+
+    человек предан своему делу и нацелен на результат. Каждый год все наши
+
+    сотрудники проходят повышение квалификации и обучение. Для работы мы
+
+    выбираем только проверенные материалы, передовые технологии и надёжных
+    поставщиков.<br>
+    <br>
+
+    Наша цель - строить жильё, которое отвечает актуальным запросам горожан,
+    формирует облик города и создаёт лучшие условия для счастливой жизни.</p>
+
+
+<div id = "rectangle"></div>
+  <h4 class="h4" id="services_main">Брусовые дома</h4>
+
+
+<section id="advantage">
+  <div class="container base-padding">
+    <div class="advantage__slider">
+
+  <!--Стрелки влево и вправо-->
+
+  <div class="advantage__slide advantage__slide--show anima--fade-in">
+    <span class="slide__num"></span>
+    <img class="slide__img" src='/home/elena/WebstormProjects/untitled/макет ск/houses/dom.jpg'>
+  </div>
+
+  <div class="advantage__slide anima--fade-in">
+    <span class="slide__num"></span>
+    <img class="slide__img" src='/home/elena/WebstormProjects/untitled/макет ск/houses/dom3.png'>
+  </div>
+
+  <div class="advantage__slide anima--fade-in">
+    <span class="slide__num"></span>
+    <img class="slide__img" src='/home/elena/WebstormProjects/untitled/макет ск/houses/dom4.jpg'>
+  </div>
+
+  <button class="advantage__arrow advantage__arrow--prev" onclick="showNextSlide(-1)">
+  <span>&#10094</span>
+  </button>
+  <button class="advantage__arrow advantage__arrow--next" onclick="showNextSlide(1)">
+  <span>&#10095</span>
+  </button>
+
+    </div>
+
+  <!--Точки для слайдов-->
+
+  <div class="slider__dots">
+    <button class="slider__dot" onclick="showSlide(0)"></button>
+    <button class="slider__dot" onclick="showSlide(1)"></button>
+    <button class="slider__dot" onclick="showSlide(2)"></button>
+  </div>
+
+  </div>
+
+</section>
+
+
+  <h5 class="h5" id="job">Работа</h5>
+  <p class="p2">Стань частью нашей команды!</p>
+  <p class="p3">Мы предлагаем:</p>
+  <p class="p4">- Работу в стабильной и надёжной компании;<br>
+    - Профессиональную реализацию и развитие в сильной команде;<br>
+    - Официальное трудоустройство;<br>
+    - Обучение;<br>
+    - Карьерный рост;<br>
+    - Своевременную выплату заработной платы;
+  </p>
+<button><a href='/home/elena/WebstormProjects/untitled/index2.html' class="b">Все вакансии</a></button>
+  <div id = "rectangle2"></div>
+  <h6 class="h6" id="contacts_main">Контакты</h6>
+  <p class="p5">
+    <img class="icon" src='/home/elena/WebstormProjects/untitled/макет ск/6.png' alt="Телефон" width=90%>
+    <br>
+    <br>
+    <br>
+    <br>
+  <img class="icon2" src='/home/elena/WebstormProjects/untitled/макет ск/15.png' alt="Почта" width=100%>
+    <br>
+    <br>
+    <br>
+    <br>
+  <img class="icon3" src='/home/elena/WebstormProjects/untitled/макет ск/18.png' alt="Адрес" width=100%>
+  </p>
+  <p class="p6">
+    +7 (3452)-77-77-77
+    <br>
+    <br>
+    afinask@mail.ru
+    <br>
+    <br>
+    г. Тюмень <br>
+    ул. Николая Фёдорова,9
+  </p>
+<p class="map">
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A68a5cbc9b954fbba58a79a0b71ec05ac3a5764e65a391c8d0a809cb4ba243d0b&amp;width=700&amp;height=700&amp;lang=ru_RU&amp;scroll=true" width="90%"></script>
+</div>
+</p>
+<p class="footer">Политика конфиденциальности</p>
+
+<script type="text/javascript" src='/home/elena/WebstormProjects/untitled/script.js'></script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'SatyrSP';
+    src: url('/home/elena/WebstormProjects/untitled/макет ск/SatyrSP.otf');
+}
+.icon {
+    width: 200%;
+}
+.img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    left: 0;
+}
+.img2 {
+    width: 100%;
+    position: absolute;
+    top: 11%;
+    left: 0;
+}
+    .header_list {
+        list-style-type: none; /*убрать точки списка*/
+}
+.logo {
+    display: inline-flex;
+    position: absolute;
+    width: 4vw;
+    height: 3.5vw;
+    left: 3%;
+}
+.li {
+    position: relative;
+    display: inline-block;
+    font-family: 'SatyrSP', sans-serif;
+    font-size: 200%;
+    float: right;
+    padding-top: 1.5%;
+    margin-right: 3%;
+}
+.li:hover {
+    text-decoration: underline;
+    color: #ffbf49;
+    cursor: pointer;
+}
+.li1 {
+    display: inline-block;
+    font-family: 'SatyrSP', sans-serif;
+    font-size: 200%;
+    position: relative;
+    float: left;
+    padding-top: 1.5%;
+    margin-left: 9%;
+}
+.h1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 700%;
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 20%;
+    margin-top: 20%;
+    margin-bottom: 2%;
+    float: right;
+}
+.h2 {
+    position: relative;
+    font-size: 500%;
+    text-align: left;
+    margin-right: 7%;
+    margin-left: 20%;
+    margin-bottom: 25%;
+    margin-top: 0;
+    float: right;
+}
+.h3 {
+    position: absolute;
+    left: 40%;
+    top: 160%;
+    text-align: center;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 50px;
+    background-color: darkgrey;
+    display: inline-block;
+    border: solid 1px darkgrey;
+    border-radius: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.p {
+    position: absolute;
+    left: 20%;
+    top: 172%;
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffbf49;
+
+}
+.p1 {
+    position: absolute;
+    top: 184%;
+    left: 3%;
+    right: 3%;
+    text-align: justify;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+}
+.h4 {
+    position: absolute;
+    top: 268%;
+    left: 35%;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+}
+#rectangle {
+    position: absolute;
+    top: 275%;
+    left: 0;
+    right: 0;
+    width: 1905px;
+    height: 180px;
+    background-color: #ffbf49;
+}
+.h5 {
+    position: absolute;
+    left: 40%;
+    top: 410%;
+    text-align: center;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 50px;
+    background-color: darkgrey;
+    display: inline-block;
+    border: solid 1px darkgrey;
+    border-radius: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.p2 {
+    position: absolute;
+    left: 31%;
+    top: 427%;
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffbf49;
+}
+.p3 {
+    position: absolute;
+    left: 3%;
+    top: 440%;
+    font-size: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.p4 {
+    position: absolute;
+    left: 3%;
+    top: 450%;
+    font-size: 40px;
+    text-align: left;
+    font-style: italic;
+    font-weight: normal;
+}
+.b {
+    position: absolute;
+    left: 3%;
+    top: 491%;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 30px;
+    color: dimgray;
+    background-color: #ffbf49;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    text-decoration: none;
+}
+.b:hover {
+    color: black;
+    cursor: pointer;
+    border: solid 3px black;
+}
+#rectangle2 {
+    position: absolute;
+    top: 519%;
+    left: 0;
+    width: 1905px;
+    height: 1000px;
+    background-color: #ffbf49;
+}
+.h6 {
+    position: absolute;
+    left: 43%;
+    top: 517%;
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.p5 {
+    position: absolute;
+    left: 3%;
+    top: 544%;
+}
+.p6 {
+    position: absolute;
+    left: 10%;
+    top: 540%;
+    font-size: 50px;
+}
+.footer {
+    position: absolute;
+    left: 3%;
+    top: 616%;
+    font-size: 20px;
+    text-decoration: underline;
+    color: dimgray;
+}
+.footer:hover {
+    color: black;
+    cursor: pointer;
+}
+.map {
+    position: absolute;
+    right: 3%;
+    top: 543%;
+    border: solid 3px darkgrey;
+}
+.map:hover {
+    border: solid 3px black;
+}
+
+
+
+.advantage__slider {
+    width: 1905px;
+    height: 1070px;
+    position: absolute;
+    top: 294%;
+    left: 0px;
+}
+.advantage__slide {
+    position: relative;
+    display: none;
+}
+.advantage__slide--show {
+    display: flex;
+}
+.advantage__slide .slide__img {
+    width: 1905px;
+    height: 1070px;
+    object-fit: fill; /*формат отображения картинки - заполнение*/
+}
+.advantage__arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    transition: background .3s;
+    border-style: none;
+}
+.advantage__arrow:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+.advantage__arrow--next {
+    position: absolute;
+    left: auto;
+    right: 0;
+}
+.advantage__arrow--prev {
+    position: absolute;
+    left: 0;
+    right: auto;
+}
+.slider__dots {
+    position: absolute;
+    top: 397%;
+    border-radius: 50%;
+    width: 100%;
+    text-align: center;
+    border-style: none;
+}
+.slider__dot {
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+    background: transparent;
+    border-style: solid 1px;
+    border-radius: 50px;
+}
+.slider__dot:hover {
+background: #ffbf49;
+}
+.slider__dot--active {
+    background: darkgrey;
+}
